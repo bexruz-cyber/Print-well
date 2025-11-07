@@ -115,18 +115,19 @@
 
   <div id="overlay" class="overlay fixed inset-0 bg-black bg-opacity-80 z-40"></div>
 
-  <section class="md:pt-16 md:pb-[120px] py-10">
-    <div class="max-w-[1656px] px-3 mx-auto">
+  <section class="pt-16 md:pb-[120px] pb-16">
+    <div class="max-w-[1664px] px-4 mx-auto">
       <div class="flex flex-wrap gap-6 items-end justify-between mb-6">
         <div class="lg:max-w-[685px] max-w-[500px] w-full">
-          <h1 class="text-black font-bold lg:text-5xl md:text-3xl text-2xl leading-[120%] mb-3">ПОЛНОФОРМАТНАЯ <br>
+          <h1 class="text-black font-bold lg:text-5xl md:text-3xl text-2xl leading-[120%] md:mb-3 mb-1">ПОЛНОФОРМАТНАЯ
+            <br>
             <span class="bg-clip-text text-transparent"
               style="background-image: linear-gradient(81.56deg, #3D9AFF 0.38%, #0063DC 189.83%);">ТИПОГРАФИЯ</span>
           </h1>
           <p class="text-black font-light lg:text-base md:text-sm text-xs lg:leading-6">Мы подготовим так, как вы
             хотите. Мы подготовим так, как вы хотите. Мы подготовим так, как вы хотите.</p>
         </div>
-        <div class="flex items-center gap-2">
+        <div class="md:flex hidden items-center gap-2">
           <a class="md:py-[18px] md:px-[41px] py-3 px-4 rounded-[4px] text-white md:text-base text-xs font-medium Helvetica"
             style="background: linear-gradient(81.56deg, #3D9AFF 0.38%, #0063DC 189.83%);" href="#">Связаться с
             нами</a>
@@ -134,52 +135,62 @@
             href="#">Наши услуги</a>
         </div>
       </div>
-      <div class="relative w-full h-[30vh] min-h-[260px] max-h-[500px] md:h-[70vh] md:max-h-[607px]">
+      <div
+        class="relative w-full h-[20vh] min-h-[181px] max-h-[500px] md:h-[70vh] md:max-h-[607px] md:rounded-t-none rounded-t-lg overflow-hidden">
         <img src="./img/hero/bg.avif" alt="background" loading="lazy"
           class="absolute inset-0 w-full h-full object-cover object-center">
 
         <button class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
           <img src="./img/hero/button.avif" alt="button"
-            class="w-12 h-12 max-w-12 sm:w-14 sm:h-14 md:w-full md:max-w-[64px] md:h-16 cursor-pointer transition-transform hover:scale-110">
+            class="w-[45px] h-[45px] max-w-[45px] sm:w-14 sm:h-14 md:w-full md:max-w-[64px] md:h-16 cursor-pointer transition-transform hover:scale-110">
         </button>
 
         <p
-          class="absolute bottom-4 left-4 right-4 text-white font-light text-xs leading-tight sm:text-sm md:text-base md:bottom-6 md:left-6 max-w-xl z-10">
+          class="md:block hidden absolute bottom-4 left-4 right-4 text-white font-light text-xs leading-tight sm:text-sm md:text-base md:bottom-6 md:left-6 max-w-xl z-10">
           Мы подготовим так, как вы хотите. Мы подготовим так, как вы хотите. Мы подготовим так, как вы хотите.
         </p>
       </div>
-      <div class="flex gap-3 flex-wrap items-center lg:justify-between w-full md:py-7 md:px-8 p-4 bg-[#ECF5FF] "
+      <div
+        class="flex gap-3 flex-wrap items-center lg:justify-between w-full md:py-7 md:px-8 p-4 bg-[#ECF5FF] md:rounded-b-none rounded-b-lg md:mb-0 mb-6"
         style="backdrop-filter: blur(24px)">
         <div class="flex items-center gap-2 max-w-[260px] w-full">
-          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-12 h-12" src="./img/hero/1.avif" alt="icon"
+          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-10 h-10" src="./img/hero/1.avif" alt="icon"
             loading="lazy" width="64" height="64">
-          <p class="text-[#007CFF] font-bold lg:text-base md:text-sm text-xs uppercase leading-[120%]">Дизайн и
+          <p class="text-[#007CFF] font-bold lg:text-base md:text-sm text-xs uppercase leading-[120%]">Дизайн и <br>
             подготовка</p>
         </div>
         <div class="flex items-center gap-2 max-w-[260px] w-full">
-          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-12 h-12" src="./img/hero/2.avif" alt="icon"
+          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-10 h-10" src="./img/hero/2.avif" alt="icon"
             loading="lazy" width="64" height="64">
           <p class="text-[#007CFF] font-bold lg:text-base md:text-sm text-xs uppercase leading-[120%]">Безцветность и
-            пробная печать</p>
+            <br>
+            пробная печать
+          </p>
         </div>
         <div class="flex items-center gap-2 max-w-[270px] w-full">
-          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-12 h-12" src="./img/hero/3.avif" alt="icon"
+          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-10 h-10" src="./img/hero/3.avif" alt="icon"
             loading="lazy" width="64" height="64">
           <p class="text-[#007CFF] font-bold lg:text-base md:text-sm text-xs uppercase leading-[120%]">Процесс печати
           </p>
         </div>
         <div class="flex items-center gap-2 max-w-[270px] w-full">
-          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-12 h-12" src="./img/hero/4.avif" alt="icon"
+          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-10 h-10" src="./img/hero/4.avif" alt="icon"
             loading="lazy" width="64" height="64">
           <p class="text-[#007CFF] font-bold lg:text-base md:text-sm text-xs uppercase leading-[120%]">Резка,
-            складывание, ламинирование</p>
+            складывание, <br> ламинирование</p>
         </div>
         <div class="flex items-center gap-2 max-w-[260px] w-full">
-          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-12 h-12" src="./img/hero/5.avif" alt="icon"
+          <img class="lg:max-w-[64px] lg:w-full lg:h-16 md:w-14 md:h-14 w-10 h-10" src="./img/hero/5.avif" alt="icon"
             loading="lazy" width="64" height="64">
-          <p class="text-[#007CFF] font-bold lg:text-base md:text-sm text-xs uppercase leading-[120%]">Упаковка и
+          <p class="text-[#007CFF] font-bold lg:text-base md:text-sm text-xs uppercase leading-[120%]">Упаковка и <br>
             логистика</p>
         </div>
+      </div>
+      <div class="md:hidden flex flex-col gap-2">
+        <a class="bg-[linear-gradient(81.56deg,_#3D9AFF_0.38%,_#0063DC_189.83%);] text-white py-[18px] px-5 w-full flex justify-center font-medium text-base rounded Helvetica"
+          href="#">Связаться с нами</a>
+        <a class="bg-[#0000000D] text-black py-[18px] px-5 w-full flex justify-center font-medium text-base rounded Helvetica"
+          href="#">Наши услуги</a>
       </div>
     </div>
   </section>
@@ -187,10 +198,10 @@
   <section class="md:pt-[60px] md:pb-[120px] py-10"
     style="background: linear-gradient(180deg, #FFFFFF -21.95%, #D5EAFF 122.27%);">
     <div class="max-w-[1656px] px-3 mx-auto">
-      <div class="flex items-start lg:gap-[189px] flex-wrap gap-3 lg:mb-[120px] md:mb-20 mb-5">
-        <p class="text-[#007CFF] uppercase font-bold md:text-base text-sm leading-[120%]">Услуги</p>
-        <div class="flex flex-col lg:gap-8 md:gap-5 gap-3 max-w-[685px] w-full">
-          <h3 class="max-w-[535px] text-black font-bold lg:text-[32px] md:text-2xl text-xl lg:leading-[120%] uppercase">
+      <div class="flex items-start lg:gap-[189px] flex-wrap md:gap-3 gap-6 lg:mb-[120px] md:mb-20 mb-8">
+        <p class="text-[#007CFF] uppercase font-bold md:text-base text-xs leading-[120%]">Услуги</p>
+        <div class="flex flex-col lg:gap-8 md:gap-5 gap-4 max-w-[685px] w-full">
+          <h3 class="max-w-[535px] text-black font-bold lg:text-[32px] md:text-2xl text-lg lg:leading-[120%] uppercase">
             Выделяйтесь с каждой деталью</h3>
           <p class="text-black font-light lg:text-base md:text-sm text-xs lg:leading-6">Мы разрабатываем эстетичную,
             прочную и функциональную упаковку для вашего продукта. Размер, материал и дизайн — всё адаптируется под
@@ -198,48 +209,56 @@
             бренд.</p>
         </div>
       </div>
-      <div class="bg-white lg:p-9 md:p-6 p-3 rounded-lg flex md:flex-row flex-col justify-between gap-3 mb-6">
+      <div class="bg-white lg:p-9 md:p-6 p-4 rounded-lg flex md:flex-row flex-col-reverse justify-between gap-3 mb-6">
         <div class="white__box flex items-start lg:gap-[173px] flex-col lg:flex-row gap-3 ">
-          <img class="w-12 h-12 max-w-12 sm:w-14 sm:h-14 md:w-full md:max-w-[64px] md:h-16" width="64" height="64"
-            loading="lazy" src="./img/print.avif" alt="print">
-          <div class="flex flex-col lg:h-full lg:gap-8 md:gap-5 gap-3 max-w-[535px] w-full">
-            <h3 class="text-black font-bold lg:text-[32px] md:text-2xl text-xl lg:leading-[120%] uppercase">
+          <img class="w-12 h-12 max-w-12 sm:w-14 sm:h-14 md:w-full md:max-w-[64px] md:h-16 md:block hidden" width="64"
+            height="64" loading="lazy" src="./img/print.avif" alt="print">
+          <div class="flex flex-col lg:h-full lg:gap-8 md:gap-5 gap-4 max-w-[535px] w-full">
+            <h3 class="text-black font-bold lg:text-[32px] md:text-2xl text-lg lg:leading-[120%] uppercase">
               Полиграфическая продукция</h3>
             <p class="text-black font-light lg:text-base md:text-sm text-xs lg:leading-6">Мы разрабатываем эстетичную,
               Ваш надежный инструмент для яркой рекламы и эффективной коммуникации. От визиток до брошюр, мы воплотим
               ваши идеи в жизнь с безупречным качеством.</p>
-            <a class="mt-auto md:py-[18px] md:px-[41px] py-3 px-4 max-w-[296px] w-full inline-flex justify-center rounded-[4px] text-white md:text-base text-xs font-medium Helvetica"
+            <a class="mt-auto md:py-[18px] md:px-[41px] py-3 px-4 md:max-w-[296px] w-full inline-flex justify-center rounded-[4px] text-white text-base font-medium Helvetica"
               style="background: linear-gradient(81.56deg, #3D9AFF 0.38%, #0063DC 189.83%);" href="#">Batafsil</a>
           </div>
         </div>
         <div class="white__box-image lg:flex items-start gap-8">
-          <img class="max-w-[567px] w-full h-auto" src="./img/asaka.avif" alt="bank" width="567" height="417"
-            loading="lazy">
-          <h2 class="text-[#007CFF] font-bold lg:text-[32px] md:text-2xl text-xl lg:leading-[120%] uppercase">1/<span
-              class="text-[#00000033]">2</span></h2>
+          <div class="flex md:hidden items-start justify-between w-full">
+            <img class="max-w-[48px] w-full h-12" src="./img/print.avif" alt="icon">
+            <p class="text-[#007CFF] font-bold text-base leading-[120%]">1/<span class="text-[#00000033]">2</span></p>
+          </div>
+          <img class="max-w-[567px] w-full h-auto md:mb-0 mb-[37px]" src="./img/asaka.avif" alt="bank" width="567"
+            height="417" loading="lazy">
+          <h2
+            class="text-[#007CFF] font-bold lg:text-[32px] md:text-2xl text-xl lg:leading-[120%] uppercase md:block hidden">
+            1/<span class="text-[#00000033]">2</span></h2>
         </div>
       </div>
-      <div class="bg-white lg:p-9 md:p-6 p-3 rounded-lg flex md:flex-row flex-col justify-between gap-3">
+      <div class="bg-white lg:p-9 md:p-6 p-4 rounded-lg flex md:flex-row flex-col-reverse justify-between gap-3 mb-6">
         <div class="white__box flex items-start lg:gap-[173px] flex-col lg:flex-row gap-3 ">
-          <img class="w-12 h-12 max-w-12 sm:w-14 sm:h-14 md:w-full md:max-w-[64px] md:h-16" width="64" height="64"
-            loading="lazy" src="./img/print.avif" alt="print">
-          <div class="flex flex-col lg:h-full lg:gap-8 md:gap-5 gap-3 max-w-[535px] w-full">
-            <h3 class="text-black font-bold lg:text-[32px] md:text-2xl text-xl lg:leading-[120%] uppercase">
+          <img class="w-12 h-12 max-w-12 sm:w-14 sm:h-14 md:w-full md:max-w-[64px] md:h-16 md:block hidden" width="64"
+            height="64" loading="lazy" src="./img/print.avif" alt="print">
+          <div class="flex flex-col lg:h-full lg:gap-8 md:gap-5 gap-4 max-w-[535px] w-full">
+            <h3 class="text-black font-bold lg:text-[32px] md:text-2xl text-lg lg:leading-[120%] uppercase">
               Упаковка из картона</h3>
-            <p class="text-black font-light lg:text-base md:text-sm text-xs lg:leading-6">Экологичное и стильное
-              решение
-              для вашего бизнеса. Надежная защита продукции, яркий дизайн и возможность брендирования – все это в
-              наших
+            <p class="text-black font-light lg:text-base md:text-sm text-xs lg:leading-6">Экологичное и стильное решение
+              для вашего бизнеса. Надежная защита продукции, яркий дизайн и возможность брендирования – все это в наших
               картонных упаковках.</p>
-            <a class="mt-auto md:py-[18px] md:px-[41px] py-3 px-4 max-w-[296px] w-full inline-flex justify-center rounded-[4px] text-white md:text-base text-xs font-medium Helvetica"
+            <a class="mt-auto md:py-[18px] md:px-[41px] py-3 px-4 md:max-w-[296px] w-full inline-flex justify-center rounded-[4px] text-white text-base font-medium Helvetica"
               style="background: linear-gradient(81.56deg, #3D9AFF 0.38%, #0063DC 189.83%);" href="#">Batafsil</a>
           </div>
         </div>
         <div class="white__box-image lg:flex items-start gap-8">
-          <img class="max-w-[567px] w-full h-auto" src="./img/box.avif" alt="bank" width="567" height="417"
-            loading="lazy">
-          <h2 class="text-[#007CFF] font-bold lg:text-[32px] md:text-2xl text-xl lg:leading-[120%] uppercase">2/<span
-              class="text-[#00000033]">2</span></h2>
+          <div class="flex md:hidden items-start justify-between w-full">
+            <img class="max-w-[48px] w-full h-12" src="./img/print.avif" alt="icon">
+            <p class="text-[#007CFF] font-bold text-base leading-[120%]">1/<span class="text-[#00000033]">2</span></p>
+          </div>
+          <img class="max-w-[567px] w-full h-auto md:mb-0 mb-[37px]" src="./img/box.avif" alt="bank" width="567"
+            height="417" loading="lazy">
+          <h2
+            class="text-[#007CFF] font-bold lg:text-[32px] md:text-2xl text-xl lg:leading-[120%] uppercase md:block hidden">
+            2/<span class="text-[#00000033]">2</span></h2>
         </div>
       </div>
     </div>
@@ -258,34 +277,38 @@
             Poligraf Group с 2005 по 2019 год. В настоящее время мы входим в ТОП-10 типографий по всей Узбекистану.
           </p>
         </div>
-        <div class="grid grid-cols-2 md:gap-4 gap-2 md:mb-4 mb-3">
+        <div>
+          <img class="max-w-[808px] w-full h-auto md:hidden flex mb-4" loading="lazy" width="808" height="785"
+            src="./img/printHero.avif" alt="print">
+        </div>
+        <div class="grid md:grid-cols-2 grid-cols-1 md:gap-4 gap-2 md:mb-4 mb-3">
           <div
-            class="max-w-[396px] w-full lg:h-[211px] rounded-lg border border-white/5 bg-[#FFFFFF0D] transition-all duration-200 hover:border-white md:py-4 md:px-6 p-3"
+            class="max-w-[396px] w-full h-[211px] rounded-lg border border-white/5 bg-[#FFFFFF0D] transition-all duration-200 hover:border-white py-4 px-6"
             style="backdrop-filter: blur(202.8000030517578px)">
-            <h3 class="text-white font-medium lg:text-[56px] lg:leading-[84px] md:text-4xl text-2xl md:mb-4 mb-3">25+
+            <h3 class="text-white font-medium text-[56px] leading-[84px] mb-4">25+
             </h3>
-            <p class="text-white font-normal lg:text-base lg:leading-6 md:text-sm text-xs">Годовой опыт</p>
+            <p class="text-white font-normal text-base leading-6">Годовой опыт</p>
           </div>
           <div
-            class="max-w-[396px] w-full lg:h-[211px] rounded-lg border border-white/5 bg-[#FFFFFF0D] transition-all duration-200 hover:border-white md:py-4 md:px-6 p-3"
+            class="max-w-[396px] w-full h-[211px] rounded-lg border border-white/5 bg-[#FFFFFF0D] transition-all duration-200 hover:border-white py-4 px-6"
             style="backdrop-filter: blur(202.8000030517578px)">
-            <h3 class="text-white font-medium lg:text-[56px] lg:leading-[84px] md:text-4xl text-2xl md:mb-4 mb-3">150+
+            <h3 class="text-white font-medium text-[56px] leading-[84px] mb-4">150+
             </h3>
-            <p class="text-white font-normal lg:text-base lg:leading-6 md:text-sm text-xs">Количество сотрудников</p>
+            <p class="text-white font-normal text-base leading-6">Количество сотрудников</p>
           </div>
           <div
-            class="max-w-[396px] w-full lg:h-[211px] rounded-lg border border-white/5 bg-[#FFFFFF0D] transition-all duration-200 hover:border-white md:py-4 md:px-6 p-3"
+            class="max-w-[396px] w-full h-[211px] rounded-lg border border-white/5 bg-[#FFFFFF0D] transition-all duration-200 hover:border-white py-4 px-6"
             style="backdrop-filter: blur(202.8000030517578px)">
-            <h3 class="text-white font-medium lg:text-[56px] lg:leading-[84px] md:text-4xl text-2xl md:mb-4 mb-3">20k
+            <h3 class="text-white font-medium text-[56px] leading-[84px] mb-4">20k
             </h3>
-            <p class="text-white font-normal lg:text-base lg:leading-6 md:text-sm text-xs">Успешные заказы</p>
+            <p class="text-white font-normal text-base leading-6">Успешные заказы</p>
           </div>
           <div
-            class="max-w-[396px] w-full lg:h-[211px] rounded-lg border border-white/5 bg-[#FFFFFF0D] transition-all duration-200 hover:border-white md:py-4 md:px-6 p-3"
+            class="max-w-[396px] w-full h-[211px] rounded-lg border border-white/5 bg-[#FFFFFF0D] transition-all duration-200 hover:border-white py-4 px-6"
             style="backdrop-filter: blur(202.8000030517578px)">
-            <h3 class="text-white font-medium lg:text-[56px] lg:leading-[84px] md:text-4xl text-2xl md:mb-4 mb-3">250+
+            <h3 class="text-white font-medium text-[56px] leading-[84px] mb-4">250+
             </h3>
-            <p class="text-white font-normal lg:text-base lg:leading-6 md:text-sm text-xs">Довольные клиенты</p>
+            <p class="text-white font-normal text-base leading-6">Довольные клиенты</p>
           </div>
         </div>
         <p class="text-white/50 font-light md:text-sm text-xs lg:leading-5 max-w-[741px]">Кроме Узбекистана, мы также
@@ -294,19 +317,20 @@
         </p>
       </div>
       <div>
-        <img class="max-w-[808px] w-full h-auto" loading="lazy" width="808" height="785" src="./img/printHero.avif"
-          alt="print">
+        <img class="max-w-[808px] w-full h-auto md:flex hidden" loading="lazy" width="808" height="785"
+          src="./img/printHero.avif" alt="print">
       </div>
     </div>
   </section>
 
   <section class="bg-[#F1F5F9] md:pt-[120px] md:pb-16 py-10 overflow-hidden">
-    <div class="max-w-[1656px] px-3 mx-auto flex items-start justify-between gap-3 mb-14">
+    <div class="max-w-[1656px] px-3 mx-auto flex md:flex-row flex-col-reverse items-start justify-between gap-3 mb-14">
       <div class="max-w-[750px] w-full">
-        <h2 class="text-black font-bold lg:text-5xl md:text-3xl text-2xl uppercase mb-8">НАШИ ПАРТНЁРЫ</h2>
+        <h2 class="text-black font-bold lg:text-5xl md:text-3xl text-2xl uppercase md:mb-8 mb-4">НАШИ ПАРТНЁРЫ</h2>
         <p class="text-black font-light lg:text-base md:text-sm text-xs lg:leading-6">PrintWell придерживается
           принципа
-          надежного партнерства. <br> Мы установили долгосрочное и эффективное сотрудничество с организациями в
+          надежного партнерства. <br class="md:block hidden"> Мы установили долгосрочное и эффективное сотрудничество с
+          организациями в
           различных сферах. Каждое партнерство — это взаимное доверие, качественное обслуживание и стабильный
           результат.
         </p>
@@ -316,56 +340,56 @@
     <div class="flex flex-col gap-4">
 
       <div class="infinity-track">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/elma.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/elma.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/xazna.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/xazna.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/chevrolet.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/chevrolet.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/sqb.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/sqb.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/afka.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/afka.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/huawei.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/huawei.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/elma.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/elma.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/xazna.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/xazna.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/chevrolet.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/chevrolet.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/sqb.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/sqb.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/afka.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/afka.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/huawei.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/huawei.avif" loading="lazy"
           alt="logo" width="259" height="110">
       </div>
 
       <div class="infinity-track">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/elma.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/elma.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/xazna.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/xazna.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/chevrolet.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/chevrolet.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/sqb.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/sqb.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/afka.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/afka.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/huawei.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/huawei.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/elma.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/elma.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/xazna.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/xazna.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/chevrolet.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/chevrolet.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/sqb.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/sqb.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/afka.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/afka.avif" loading="lazy"
           alt="logo" width="259" height="110">
-        <img class="md:max-w-[259px] w-full max-w-[180px] h-auto" src="./img/partners/huawei.avif" loading="lazy"
+        <img class="md:max-w-[259px] w-full max-w-[204px] h-auto" src="./img/partners/huawei.avif" loading="lazy"
           alt="logo" width="259" height="110">
       </div>
 
@@ -376,7 +400,9 @@
     <div class="max-w-418 mx-auto px-3">
       <div class="flex flex-col lg:flex-row items-start justify-center gap-4 font-[Unbounded]">
         <div class="max-w-99 w-full mx-auto ">
-          <img class="w-full shrink-0 h-110 md:h-192.5" src="./img/founder/founder-img.avif" alt="founder img">
+          <img class="w-full shrink-0 h-110 md:h-192.5 md:flex hidden" src="./img/founder/founder-img.avif"
+            alt="founder img">
+          <img class="md:hidden flex mx-auto w-full" src="./img/founder/founder-mob.png" alt="Founder" loading="lazy">
         </div>
         <div
           class="bg-[linear-gradient(180deg,#FFFFFF_-21.95%,#D5EAFF_122.27%)] rounded-lg p-5 md:p-10 max-w-303.5 w-full">
@@ -385,7 +411,7 @@
           <h2 class="text-2xl xs:text-3xl md:text-4xl lg:text-5xl uppercase font-bold leading-[1.2] text-black">
             Гуломджон <br> Мансуров</h2>
 
-          <div class="flex mt-10 lg:mt-[420px] text-start gap-2">
+          <div class="flex mt-[295px] lg:mt-[420px] text-start gap-2">
             <span class="text-3xl sm:text-5xl font-bold leading-[1.2] text-[#007CFF] -mt-2">“</span>
             <p
               class="text-xs sm:text-sm md:text-base w-full md:max-w-155 font-light leading-4 xs:leading-5 md:leading-6 text-black">
