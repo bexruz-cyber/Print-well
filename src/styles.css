@@ -143,13 +143,46 @@ body {
     transform: translateX(0);
 }
 
-.overlay {
-    transition: opacity 0.35s ease;
-    opacity: 0;
-    pointer-events: none;
+body.sidebar-open {
+    height: 100vh;
+    overflow: hidden;
 }
 
-.overlay.active {
-    opacity: 1;
-    pointer-events: auto;
+.lang__active {
+    background-color: #fff !important;
+    color: #012249 !important;
+}
+
+.line {
+    background-color: white;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.line-1 {
+    width: 12px;
+}
+
+.line-2 {
+    width: 18px;
+}
+
+.line-3 {
+    width: 12px;
+}
+
+#hamburger-btn.open .line-1 {
+    width: 18px;
+    transform: rotate(45deg) translate(4.4px, 4.4px);
+}
+
+#hamburger-btn.open .line-2 {
+    opacity: 0;
+    transform: scale(0);
+}
+
+#hamburger-btn.open .line-3 {
+    width: 18px;
+    transform: rotate(-45deg) translate(4.4px, -4.4px);
 }
