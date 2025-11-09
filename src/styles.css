@@ -186,3 +186,45 @@ body.sidebar-open {
     width: 18px;
     transform: rotate(-45deg) translate(4.4px, -4.4px);
 }
+
+.partner-row {
+    display: flex;
+    flex-wrap: nowrap;
+    will-change: transform;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(50%);
+    }
+}
+
+.animate-scroll-left {
+    display: flex;
+    width: max-content;
+    animation: scroll-left 60s linear infinite;
+}
+
+.animate-scroll-right {
+    display: flex;
+    width: max-content;
+    animation: scroll-right 60s linear infinite;
+}
+
+.partner-card {
+    transition: transform 0.3s;
+}
