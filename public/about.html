@@ -9,6 +9,15 @@
   <link rel="stylesheet" href="./css/styles.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="./css/output.css">
+
+  <style>
+    .wrapper {
+      background-image: url(./img/bg.avif);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
 </head>
 
 <body>
@@ -124,74 +133,238 @@
     </div>
   </aside>
 
-  <section class="pt-16">
-    <div class="max-w-[1656px] px-3 mx-auto">
-      <h1 class="text-black font-bold lg:text-5xl md:text-3xl text-2xl lg:leading-[120%] mb-3">О НАС</h1>
-      <p class="text-black font-light lg:text-base md:text-sm text-xs lg:leading-6 max-w-[734px] mb-6">Вашему вниманию
-        представляется Print.uz — ваш верный спутник в мире полиграфии, который с 1997 года воплощает в жизнь самые
-        смелые идеи.</p>
-      <img class="max-w-[1632px] w-full h-auto rounded-lg md:flex hidden" src="./img/about/hero.avif" alt="hero"
-        loading="lazy" width="1632" height="378">
-      <img class="w-full h-auto rounded-lg md:hidden flex" src="./img/about/hero-mob.png" alt="hero" loading="lazy">
-    </div>
-  </section>
 
-  <section class="md:py-[120px] py-16">
-    <div class="max-w-[1656px] px-3 mx-auto flex flex-wrap items-start lg:justify-between gap-3">
-      <div class="max-w-[297px]">
-        <img class="max-w-[297px] w-full h-auto mb-4" loading="lazy" width="297" height="136"
-          src="./img/about/nums/1.avif" alt="number">
-        <h2 class="text-black font-medium text-2xl leading-[120%] mb-4 uppercase">Индивидуаль ный подход</h2>
-        <p class="text-black font-light text-base leading-6 ">Каждый клиент для нас — вдохновение, каждый заказ —
-          произведение искусства.</p>
-      </div>
-      <div class="max-w-[297px]">
-        <img class="max-w-[297px] w-full h-auto mb-4" loading="lazy" width="297" height="136"
-          src="./img/about/nums/2.avif" alt="number">
-        <h2 class="text-black font-medium text-2xl leading-[120%] mb-4 uppercase">Современное оборудование</h2>
-        <p class="text-black font-light text-base leading-6 ">Наш арсенал техники — это гарантия безупречности и
-          инноваций в каждом оттиске.</p>
-      </div>
-      <div class="max-w-[297px]">
-        <img class="max-w-[297px] w-full h-auto mb-4" loading="lazy" width="297" height="136"
-          src="./img/about/nums/3.avif" alt="number">
-        <h2 class="text-black font-medium text-2xl leading-[120%] mb-4 uppercase">Команда мастеров</h2>
-        <p class="text-black font-light text-base leading-6 ">Наши дизайнеры — настоящие волшебники, способные оживить
-          любую вашу мечту.</p>
-      </div>
-      <div class="max-w-[297px]">
-        <img class="max-w-[297px] w-full h-auto mb-4" loading="lazy" width="297" height="136"
-          src="./img/about/nums/4.avif" alt="number">
-        <h2 class="text-black font-medium text-2xl leading-[120%] mb-4 uppercase">Расширение горизонтов</h2>
-        <p class="text-black font-light text-base leading-6 ">Мы растем вместе с вашими амбициями, увеличивая мощности,
-          чтобы быть на шаг впереди ожиданий.</p>
-      </div>
-      <div class="max-w-[297px]">
-        <img class="max-w-[297px] w-full h-auto mb-4" loading="lazy" width="297" height="136"
-          src="./img/about/nums/5.avif" alt="number">
-        <h2 class="text-black font-medium text-2xl leading-[120%] mb-4 uppercase">Удобная доставка</h2>
-        <p class="text-black font-light text-base leading-6 ">Ваш заказ будет доставлен точно в срок, с заботой о каждой
-          детали.</p>
-      </div>
+  <div class="wrapper">
 
-    </div>
-  </section>
+    <section class="pt-16 pb-20 md:pb-30">
+      <div class="max-w-418 mx-auto px-4 font-[Unbounded]">
+        <div class="flex flex-col lg:flex-row items-start lg:items-end justify-between mb-6">
+          <div class="">
+            <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold mb-4 md:mb-3.25 leading-[1.2] text-white uppercase">О
+              НАС
+            </h2>
+            <p class="text-xs md:text-base font-light leading-4 md:leading-6 text-white">Мы подготовим так, как вы
+              хотите.
+              Мы подготовим так, как вы хотите.</p>
+            <p class="text-xs md:text-base font-light leading-4 md:leading-6 text-white mb-4 md:mb-0">Мы подготовим так,
+              как вы хотите.
+            </p>
+          </div>
+          <!-- Mobile image -->
+          <img class="max-w-83 h-47 w-full block md:hidden mb-4" src="./img/about/newsssMini.png" loading="lazy"
+            alt="about-img">
+          <div class="flex flex-col md:flex-row items-center gap-2 w-full md:w-auto order-1 md:order-none">
+            <button
+              class="text-sm font-medium leading-[100%] whitespace-nowrap text-white p-5 w-full md:w-auto rounded-[4px] border-none cursor-pointer bg-[linear-gradient(81.56deg,#3D9AFF_0.38%,#0063DC_189.83%)]">
+              Посмотреть наши работы
+            </button>
+            <button
+              class="text-sm font-medium leading-[100%] text-white p-5 w-full md:w-auto rounded-[4px] border-none cursor-pointer bg-[#FFFFFF0D]">
+              Наши услуги
+            </button>
+          </div>
+        </div>
 
-  <section class="md:pb-[120px] pb-16">
-    <div class="max-w-[1656px] px-3 mx-auto">
-      <div class="relative w-full h-[20vh] min-h-[194px] max-h-[500px] md:h-[70vh] md:max-h-[607px]">
-        <img src="./img/about/videoBg.png" alt="background" loading="lazy"
-          class="absolute inset-0 w-full h-full object-cover object-center rounded-lg overflow-hidden md:flex hidden">
-        <img src="./img/about/videoMob.png" alt="background" loading="lazy"
-          class="absolute inset-0 w-full h-full object-cover object-center rounded-lg overflow-hidden md:hidden flex">
+        <div class="flex  items-center gap-4">
+          <img class="max-w-408 h-106 hidden md:block" src="./img/about/newsss.png" loading="lazy" alt="about-img">
+        </div>
 
-        <button class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
-          <img src="./img/hero/button.avif" alt="button"
-            class="w-12 h-12 max-w-12 sm:w-14 sm:h-14 md:w-full md:max-w-[64px] md:h-16 cursor-pointer transition-transform hover:scale-110">
-        </button>
       </div>
-    </div>
-  </section>
+    </section>
+
+
+    <section class="">
+      <div class="max-w-418 mx-auto px-4 font-[Unbounded]">
+        <h3 class="text-base font-bold leading-[1.2] text-[#FFFFFF33] mb-3">3 основных этапа</h3>
+        <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold mb-4 md:mb-3.25 leading-[1.2] text-white uppercase">
+          Наша история
+        </h2>
+        <p class="text-xs md:text-base font-light leading-4 md:leading-6 text-white max-w-171">Наша компания, основанная
+          под
+          именем Printwell в 2019 году, ранее обслуживала клиентов под названием Poligraf Group с 2005 по 2019 год. В
+          настоящее время мы входим в ТОП-10 типографий по всей Узбекистану.</p>
+
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-4 pt-6 md:mt-16">
+          <div
+            class="pb-20 max-w-133.5 w-full px-6 pt-4 hover:border-white hover:border rounded-lg bg-[linear-gradient(248.33deg,rgba(255,255,255,0.02)_3.51%,rgba(255,255,255,0.1)_124.26%)]">
+            <h1
+              class="text-5xl sm:text-[56px] font-medium leading-21 mb-4 bg-gradient-to-r from-[#95C6FF] to-[#0076FF] bg-clip-text text-transparent">
+              Сегодня</h1>
+            <p class="text-sm sm:text-base font-normal leading-6 text-white">Полноцикловая типография</p>
+          </div>
+          <div
+            class="pb-20 max-w-133.5 w-full px-6 pt-4 hover:border-white hover:border rounded-lg   bg-[linear-gradient(248.33deg,rgba(255,255,255,0.02)_3.51%,rgba(255,255,255,0.1)_124.26%)]">
+            <h1
+              class="text-5xl sm:text-[56px] font-medium leading-21 mb-4 bg-gradient-to-r from-[#95C6FF] to-[#0076FF] bg-clip-text text-transparent">
+              2019</h1>
+            <p class="text-sm sm:text-base font-normal leading-6 text-white">Ребрендинг, современное оборудование</p>
+          </div>
+          <div
+            class="pb-20 max-w-133.5 w-full px-6 pt-4 hover:border-white hover:border rounded-lg bg-[linear-gradient(248.33deg,rgba(255,255,255,0.02)_3.51%,rgba(255,255,255,0.1)_124.26%)]">
+            <h1
+              class="text-5xl sm:text-[56px] font-medium leading-21 mb-4 bg-gradient-to-r from-[#95C6FF] to-[#0076FF] bg-clip-text text-transparent">
+              2005</h1>
+            <p class="text-sm sm:text-base font-normal leading-6 text-white">Poligraf Group (семейное начало)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pb-16 md:pb-30 pt-16 md:pt-16">
+      <div class="max-w-418 mx-auto px-4 flex items-start justify-center flex-col font-[Unbounded]">
+        <h2
+          class="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-white font-bold leading-[1.2] uppercase mb-2 md:mb-3.25">
+          ПОЛНОФОРМАТНЫЙ
+          ЦИКЛ</h2>
+        <p class="text-xs md:text-base text-white font-light leading-6 max-w-171.25 mb-6">Мы подготовим
+          так, как вы
+          хотите. Мы подготовим так, как вы хотите. Мы подготовим так, как вы хотите.</p>
+
+
+        <div class="">
+          <div class="grid lg:grid-cols-3 gap-4 mb-4">
+            <div class="bg-white backdrop-blur-xl p-3 sm:p-6 h-80 sm:h-87.5 rounded-xl">
+
+              <img class="bg-[#ECF5FF] rounded-full mb-4 p-4 max-w-15 sm:max-w-16" src="./img/about/brush.avif"
+                loading="lazy" alt="brush icon">
+
+              <h3 class="text-xl sm:text-2xl font-bold leading-[1.2] uppercase text-[#007CFF] mb-4">Дизайн
+                и
+                подготовка</h3>
+              <p class="text-[12px] sm:text-sm font-light leading-5 sm:leading-6">Наша компания,
+                основанная
+                под именем
+                Printwell в 2019 году, ранее обслуживала клиентов под
+                названием Poligraf Group с 2005 по 2019 год. В настоящее время мы входим в ТОП-10
+                типографий
+                по
+                всей Узбекистану.</p>
+            </div>
+            <div class="bg-white backdrop-blur-xl p-3 sm:p-6 h-82.5 sm:h-87.5 rounded-xl">
+
+              <img class="bg-[#ECF5FF] rounded-full mb-4 p-4 max-w-15 sm:max-w-16" src="./img/about/notebook.avif"
+                loading="lazy" alt="brush icon">
+
+              <h3 class="text-xl sm:text-2xl font-bold leading-[1.2] uppercase text-[#007CFF] mb-4">
+                Безцветность и <br>
+                пробная печать</h3>
+              <p class="text-[12px] sm:text-sm font-light leading-5 sm:leading-6">Безцветность и пробная
+                печать — это ключевые аспекты,
+                которые мы предлагаем на сайте Printwell. Мы обеспечиваем высококачественную печать без
+                цветовых искажений, а также предоставляем возможность тестирования образцов перед
+                окончательным заказом.</p>
+            </div>
+            <div class="bg-white backdrop-blur-xl p-3 sm:p-6 h-82.5 sm:h-87.5 rounded-xl">
+
+              <img class="bg-[#ECF5FF] rounded-full mb-4 p-4 max-w-15 sm:max-w-16" src="./img/about/printer.avif"
+                loading="lazy" alt="brush icon">
+
+              <h3 class="text-xl sm:text-2xl font-bold leading-[1.2] uppercase text-[#007CFF] mb-4">
+                Процесс
+                печати</h3>
+              <p class="text-[12px] xs:text-sm font-light leading-5 sm:leading-6">Процесс печати включает
+                в
+                себя несколько ключевых
+                этапов, начиная с smдготовки макета и заканчивая финальной отделкой. Мы используем
+                современные технологии и высококачественные материалы, чтобы гарантировать отличные
+                результаты для наших клиентов.</p>
+            </div>
+          </div>
+          <div class="grid lg:grid-cols-2 gap-4">
+            <div class="bg-white  backdrop-blur-xl p-3 sm:p-6 h-82.5 sm:h-87.5 rounded-xl">
+
+              <img class="bg-[#ECF5FF] rounded-full mb-4 p-4 max-w-15 sm:max-w-16" src="./img/about/crop.avif"
+                loading="lazy" alt="brush icon">
+
+              <h3 class="text-xl sm:text-2xl font-bold leading-[1.2] uppercase text-[#007CFF] mb-4 max-w-109">
+                Резка, складывание,
+                ламинирование</h3>
+              <p class="text-[12px] sm:text-sm font-light leading-5 sm:leading-6">Cutting, folding, and
+                laminating are essential skills
+                for creating professional-looking documents and presentations. Whether you're preparing
+                materials for a meeting or crafting a project, mastering these techniques can elevate
+                your
+                work.</p>
+            </div>
+            <div class="bg-white  backdrop-blur-xl p-3 sm:p-6 h-82.5 sm:h-87.5 rounded-xl">
+
+              <img class="bg-[#ECF5FF] rounded-full mb-4 p-4 max-w-15 sm:max-w-16" src="./img/about/van.avif"
+                loading="lazy" alt="brush icon">
+
+              <h3 class="text-xl sm:text-2xl font-bold leading-[1.2] uppercase text-[#007CFF] mb-4">
+                Упаковка и
+                логистика</h3>
+              <p class="text-[12px] xs:text-sm font-light leading-5 sm:leading-6">Мы, компания Printwell,
+                начали свою деятельность в 2019
+                году, но до этого,sm 2005 по 2019 год, работали под именем Poligraf Group. Сегодня мы
+                гордимся тем, что находимся в числе десяти лучших типографий Узбекистана.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pb-16 md:pb-46.5">
+      <div class="max-w-418 mx-auto px-4 font-[Unbounded]">
+        <div class="flex flex-col lg:flex-row items-start justify-between">
+          <div class="mb-10 md:mb-0">
+            <h2 class="text-2xl lg:text-5xl font-bold leading-[1.2] mb-3.25 uppercase">Преимущества </h2>
+            <p class="text-xs md:text-base font-light leading-4 md:leading-6 max-w-143.25">PrintWell
+              придерживается
+              принципа надежного
+              партнерства.
+              Мы установили долгосрочное и эффективное сотрудничество с организациями в различных сферах.
+            </p>
+          </div>
+
+          <div
+            class="max-w-236.25 w-full rounded-lg pt-10 pb-5 px-4 md:p-12 bg-[linear-gradient(180deg,#FFFFFF_26.46%,#D5EAFF_122.27%)]">
+            <h3 class="text-sm md:text-xl lg:text-2xl uppercase font-medium leading-[1.2] mb-4">Индивидуальный подход
+            </h3>
+            <p class="text-xs md:text-base font-light leading-[1.2] mb-8">Каждый клиент для нас —
+              вдохновение,
+              каждый заказ — произведение искусства.</p>
+
+            <div class="bg-[#AAD4FF] max-w-212.25 h-px"></div>
+
+            <h3 class="text-sm md:text-xl lg:text-2xl uppercase font-medium leading-[1.2] mb-4 pt-8">Современное
+              оборудование
+            </h3>
+            <p class="text-xs md:text-base font-light leading-[1.2] mb-8">Наш арсенал техники — это гарантия
+              безупречности и инноваций в каждом оттиске.</p>
+
+            <div class="bg-[#AAD4FF] max-w-212.25 h-px"></div>
+
+
+            <h3 class="text-sm md:text-xl lg:text-2xl uppercase font-medium leading-[1.2] mb-4 pt-8">Команда мастеров
+            </h3>
+            <p class="text-xs md:text-base font-light leading-[1.2] mb-8">Наши дизайнеры — настоящие
+              волшебники,
+              способные оживить любую вашу мечту.</p>
+
+            <div class="bg-[#AAD4FF] max-w-212.25 h-px"></div>
+
+
+            <h3 class="text-sm md:text-xl lg:text-2xl uppercase font-medium leading-[1.2] mb-4 pt-8">Расширение
+              горизонтов
+            </h3>
+            <p class="text-xs md:text-base font-light leading-[1.2] mb-8">Мы растем вместе с вашими
+              амбициями,
+              увеличивая мощности, чтобы быть на шаг впереди ожиданий.</p>
+
+            <div class="bg-[#AAD4FF] max-w-212.25 h-px"></div>
+
+
+            <h3 class="text-sm md:text-xl lg:text-2xl uppercase font-medium leading-[1.2] mb-4 pt-8">Удобная доставка
+            </h3>
+            <p class="text-xs md:text-base font-light leading-[1.2] mb-8">Ваш заказ будет доставлен точно в
+              срок, с заботой о каждой детали.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
   <div class="bg-[linear-gradient(360deg,#001733_-11.26%,#007BFF_161.41%)]">
 
